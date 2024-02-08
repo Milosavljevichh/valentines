@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: main;
+}
+
+@font-face {
+    font-family: main;
+    src: url(Single_Day/SingleDay-Regular.ttf);
+}
+
+body {
+    height: 100vh;}
+
+body, #btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btns {
+    margin-top: 30px;
+    gap: 20px;
+}
+
+#picture {
+    text-align: center;
+}
+
+#picture p {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#yes, #no {
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    color: white;
+    font-size: 18px;
+}
+
+#yes:hover, #no:hover {
+    cursor: pointer;
+}
+
+#yes:hover {
+
+    background-color: #519832;
+}
+
+#yes {
+    background-color: #65B741;
+}
+
+#no {
+    background-color: #D04848;
+}
